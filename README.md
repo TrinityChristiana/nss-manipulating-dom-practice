@@ -7,4 +7,4 @@ This assignment is practice for Book 2: Chapter 1 of NSS's course work. Link to 
 Preview Assignment: https://trinity-manipulating-dom.netlify.com/
 ***
 
-THis assignment uses JavaScript to manipulate html elements by adding classes with querySelector().
+This assignment uses JavaScript to manipulate html elements by adding classes with querySelector().
