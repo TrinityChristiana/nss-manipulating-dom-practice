@@ -8,9 +8,12 @@ articleHeader.innerHTML = "Welcome to the Trinity blog";
 
 /* Use JavaScript to obtain a reference to all article__header elements and change their classList property value to article__header important.
  */
-const allArticleHeaders = document.querySelector(".article__header");
+const allArticleHeaders = document.querySelectorAll(".article__header");
 
-allArticleHeaders.classList.add("important");
+for (let i = 0; i < allArticleHeaders.length; i++){
+    allArticleHeaders[i].classList.add("important");
+}
+// allArticleHeaders.classList.add("important");
 
 /* Obtain a reference the element with a class of dashed and remove it.
  */
